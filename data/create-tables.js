@@ -22,7 +22,7 @@ async function run() {
                     title VARCHAR(256) NOT NULL,
                     date VARCHAR(256) NOT NULL,
                     url VARCHAR(517) NOT NULL,
-                    copyright VARCHAR(517) NOT NULL,
+                    copyright VARCHAR(517),
                     user_id INTEGER NOT NULL REFERENCES users(id)
             );
         `);
